@@ -5,7 +5,8 @@
   "author": "my-header",
   "license": "MIT",
   "scripts": {
-    "start": "web-dev-server"
+    "pre-deploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "lit-html": "^1.4.1",
