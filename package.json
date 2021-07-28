@@ -1,0 +1,17 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "Webcomponent my-header following open-wc recommendations",
+  "author": "my-header",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit-html": "^1.4.1",
+    "lit-element": "^2.5.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.20"
+  }
+}
