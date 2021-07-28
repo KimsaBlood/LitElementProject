@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from 'https://unpkg.com/lit-html?module';
 
 export class PageHeader extends LitElement {
   static get properties() {
